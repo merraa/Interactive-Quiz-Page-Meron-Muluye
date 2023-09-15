@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz on popular tourist sites in Ethiopia</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <main>
+        <div class="welcome common-style">
+            <h1 class="welcome-text">Welcome to Fun-quizzes</h1>
+            <button class="start" onclick="clicked()">Start</button>
+        </div>
+        <div class="questions hidden common-style">
+            <div class="question">
+                <p>Question 1: Which of the following is NOT a UNESCO World Heritage Site in Ethiopia?</p>
+                <ul class="answers">
+                    <div class="left-answers">
+                        <li><input type="radio" name="q1" value="a"> Lalibela Rock-Hewn Churches</li>
+                        <li><input type="radio" name="q1" value="b"> Simien Mountains National Park</li>
+                    </div>
+                    <div class="right-answers">
+                        <li><input type="radio" name="q1" value="c"> Axum</li>
+                        <li><input type="radio" name="q1" value="d"> Mount Entoto</li>
+                    </div>
+                </ul>
+                <hr>
+            </div>
+            <div class="question">
+                <p>Question 2: What is the name of the largest open-air market in Africa, located in Addis Ababa, Ethiopia?</p>
+                <ul class="answers">
+                    <div class="left-answers">
+                        <li><input type="radio" name="q2" value="a">Addis Mercato</li>
+                        <li><input type="radio" name="q2" value="b"> Merkato</li>
+                    </div>
+                    <div class="right-answers">
+                        <li><input type="radio" name="q2" value="c"> Mercato Addis</li>
+                        <li><input type="radio" name="q2" value="d"> Addis Market</li>
+                    </div>
+                </ul>
+                <hr>
+            </div>
+            <div class="question">
+                <p>Question 3: What is the name of the mountain that overlooks Addis Ababa, Ethiopia?</p>
+                <ul class="answers">
+                    <div class="left-answers">
+                        <li><input type="radio" name="q3" value="a"> Mount Entoto</li>
+                        <li><input type="radio" name="q1" value="b"> Mount Simien</li>
+                    </div>
+                    <div class="right-answers">
+                        <li><input type="radio" name="q3" value="c"> Mount Bale</li>
+                        <li><input type="radio" name="q3" value="d"> Mount Lalibela</li>
+                    </div>
+                </ul>
+                <hr>
+            </div>
+            <div class="question">
+                <p>Question 4: What is the name of the ancient city in Ethiopia that is home to the Ark of the Covenant?</p>
+                <ul class="answers">
+                    <div class="left-answers">
+                        <li><input type="radio" name="q4" value="a"> Axum</li>
+                        <li><input type="radio" name="q4" value="b"> Lalibela</li>
+                    </div>
+                    <div class="right-answers">
+                        <li><input type="radio" name="q4" value="c"> Gondar</li>
+                        <li><input type="radio" name="q4" value="d"> Bahir Dar</li>
+                    </div>
+                </ul>
+                <hr>
+            </div>
+            <div class="question">
+                <p>Question 5: What is the name of the Ethiopian national animal?</p>
+                <ul class="answers">
+                    <div class="left-answers">
+                        <li><input type="radio" name="q5" value="a"> Lion</li>
+                        <li><input type="radio" name="q5" value="b"> Elephant</li>
+                    </div>
+                    <div class="right-answers">
+                        <li><input type="radio" name="q5" value="c"> Giraffe</li>
+                        <li><input type="radio" name="q5" value="d"> Gelada baboon</li>
+                    </div>
+                </ul>
+                <hr>
+            </div>
+            <div class="question">
+                <p>Question 6: What is the name of the Ethiopian national dish?</p>
+                <ul class="answers">
+                    <div class="left-answers">
+                        <li><input type="radio" name="q6" value="a"> Injera</li>
+                        <li><input type="radio" name="q6" value="b"> Doro Wat</li>
+                    </div>
+                    <div class="right-answers">
+                        <li><input type="radio" name="q6" value="c"> Shiro</li>
+                        <li><input type="radio" name="q6" value="d"> Tibs</li>
+                    </div>
+                </ul>
+                <hr>
+            </div>
+            <div class="score">
+                <button class="try-again" onclick="checkAnswers()">Check Answers</button>
+                <h2 class="score-text">Score: </h2>
+                <button class="try-again" onclick="reset()">Try Again</button>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>

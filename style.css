@@ -1,0 +1,108 @@
+/* COMMON STYLES */
+
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #6524A6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Main */
+
+.common-style {
+    width: 70vw;
+    height: 80vh;
+    background-color: #ECE4F2;
+    margin: 10vh;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* Welcome Page */
+
+.start{
+    width: 20vw;
+    height: 5vh;
+    margin-top: 2vh;
+}
+
+.start, .try-again{
+    color: #ECE4F2;
+    font-weight: 400;
+    font-size: 1rem;
+
+    background-color: #6524A6;
+    border-radius: 5px;
+}
+
+.welcome-text{
+    font-size: 3rem;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Questions */
+
+
+li{
+    list-style-type: none;
+}
+
+.question p{
+    margin: 1.5vw 0;
+}
+.question, .score{
+    width: 85%;
+    height: 18%;
+}
+.answers{
+    display: flex;
+}
+
+.answers div{
+    margin-left: 5vw;
+}
+
+.questions{
+    padding: 20px;
+}
+
+/* Score */
+
+.score{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.try-again{
+    width: 10vw;
+    height: 5vh;
+    margin-top: 1vh;
+}
